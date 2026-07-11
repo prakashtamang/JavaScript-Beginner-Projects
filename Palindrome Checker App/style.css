@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 500px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: forestgreen;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
